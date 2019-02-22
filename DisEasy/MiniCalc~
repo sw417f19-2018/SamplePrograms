@@ -6,13 +6,13 @@ start
 
     sæt a og b til 3
 
-    sæt resultat til gange a og b
+    sæt resultat til a gange b
 
-    sig resultat #9
+    sig resultat
 
-    sig gange 2 og 3 #6
+    sig 2 gange 3
 
-    sig gange 4 og 3 og 5 #125
+    sig gange 4 og 3
 
 stop intet
 
