@@ -1,0 +1,2 @@
+f(x,y,z) = sig x sig y sig z
+f(hej, med, dig)

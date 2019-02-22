@@ -1,0 +1,3 @@
+x = hej
+testVariabel1 = med // variabler kan godt være på mere end ét bogstav, som forskel fra matematikken
+testVariabel2 = dig

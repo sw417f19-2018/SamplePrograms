@@ -1,0 +1,10 @@
+f(x)
+sig x
+sig hej
+sig med dig
+
+g(x)
+læg en til x
+gem x // "gem" er det samme som at returner noget. Som standard er det eksplicit hvis funktionen skal gemme noget
+
+sig g(2) // 3

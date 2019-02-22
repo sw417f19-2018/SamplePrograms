@@ -1,0 +1,2 @@
+x = 1
+x = hej med dig // FEJL: kan ikke tildele en streng-type til en tal-type

@@ -1,0 +1,5 @@
+sig hej
+sig med
+sig dig
+sig hej med dig // sig kan godt outputte en større tekststreng
+...

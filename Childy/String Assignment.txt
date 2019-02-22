@@ -1,0 +1,7 @@
+x = hej
+y = med
+z = dig
+
+x = hej med dig // Reassignering, strings kan være med mellemrum.
+x = hej 3 med dig // Sætninger kan også godt indeholde tal, så længe det ikke starter med et tal
+...

@@ -1,0 +1,6 @@
+f(x) = x + 2
+sig f(2) // giver 4
+
+f(x) = sig x
+f(hej med dig)
+...

@@ -1,0 +1,7 @@
+...
+/*
+Det her
+Er en kommentar
+Over flere linjer
+*/
+...

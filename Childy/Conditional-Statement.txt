@@ -1,0 +1,11 @@
+x = 5
+
+hvis x er større end fem // Enten specificer "fem" eller "5"
+sig hej
+ellers
+sig med dig
+
+hvis x er lig med 5
+læg 1 til x
+læg en til x
+sig x // 7
