@@ -4,7 +4,7 @@ print("Hello World");
 
 count to 10
 
-INT nummer = 0;
+HELTAL nummer = 0;
 MENS(nummer <= 10){
 	print(nummer);
 	nummer++;
