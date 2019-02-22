@@ -1,0 +1,43 @@
+Hello Word program
+
+print("Hello World");
+
+count to 10
+
+INT nummer = 0;
+MENS(nummer <= 10){
+	print(nummer);
+	nummer++;
+}
+
+Go through array
+
+navne = ["mohammed", "sahid", "Ali"];
+FOR-LØKKE(x I navne){
+	print(x);
+}
+
+Nested array print
+
+ARRAY navne = ["mohammed", "sahid", "Ali"];
+ARRAY farve = ["rød", "gul"];
+FOR-LØKKE(x I farve, y I navne){
+	print(x, y);
+} rød mohammed, rød sahid blah blah blah...
+
+single line comment
+*bad shiiit*
+
+multi line
+**
+bad 
+s
+h
+ii
+t**
+
+Skriv til fil
+
+ÅBEN-FIL x ("c:\desktop\bestEver.doc");
+STRENG stmt = "cool shit";
+STRENG-TIL-FIL(stmt TIL x);
