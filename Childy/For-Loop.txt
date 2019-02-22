@@ -1,0 +1,10 @@
+gentag 5 gange
+sig hej
+
+gentag fem gange
+sig med dig
+
+x = 4
+
+gentag x gange
+sig test
