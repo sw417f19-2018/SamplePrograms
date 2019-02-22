@@ -1,0 +1,26 @@
+Program(args)
+Start
+Hvis UDTRYK er sandt
+	x = y + z		//Standard assignment
+	x * 2			//udføre handlinger på variabel uden assignment kald således der kun er 1 variabel
+Ellers Hvis UDTRYK er falsk
+	z = x - y
+	z / 4
+Ellers så
+	y = x * 2 / z
+
+Udskriv(x,y,z)
+Slut
+
+Note start
+alt i mellem disse 2 kald er en note/kommentar
+Note slut
+Funktion xyz (INPUT INPUT INPUT)      //kan godt tage andre funktioner som input
+Start
+i = 0
+Boghylde[]
+Så længe UDTRYK er sandt så gør
+	Tilføj bog x+2*i+z+y til Boghylde
+	i + 1
+xyz = Boghylde.længde
+Slut
