@@ -1,0 +1,12 @@
+imports MathTerms;
+
+Program start
+	//Scan has multiple modes for specifying input type. number, letter, text and anything
+	integer radiusinput : System.scan.number(); 
+	fraction circumference : CircumCulator(1: radiusinput);
+	System.print(1: circumference);
+end
+
+Function CircumCulator (1: integer radius) returns fraction start
+	return (2 * MathTerms.pi() * radius)
+end

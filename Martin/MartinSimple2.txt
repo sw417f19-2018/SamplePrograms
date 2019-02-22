@@ -1,0 +1,33 @@
+imports MathTerms;
+
+Program start
+	System.print(summation(2: 1, 3: System.scan.number, 1: n));
+	System.print(summation(2: 1, 3: System.scan.number, 1: nSquared));
+	System.print(summation(2: 1, 3: System.scan.number, 1: nMultiplied2));
+	System.print(summation(2: 1, 3: System.scan.number, 1: nSquareRoot));
+end
+
+//number is a generic return type limited to a selection between integer and fraction
+Function summation (1: Function expression, 2: integer start, 3: integer goal) returns number start
+	number sum : 0;
+	for(number count : start; count is < or = goal; increase count) start
+		sum increaseby expression(1: count); //gives error if expression accepts 0, 2 or more inputs.
+	end
+	return (sum);
+end
+
+Function n (1: number input) returns integer start
+	return (input);
+end
+
+Function nSquared(1: number input) returns integer start
+	return (input * input);
+end
+
+Function nMultiplied2 (1: number input) returns integer start
+	return (input LShift 1);
+end
+
+Function nSquareRoot (1: number input) returns fraction start
+	return (MathTerms.root(1: 2, 2: input));
+end
