@@ -1,0 +1,68 @@
+﻿>> 
+>>Program(){
+>> Tal pris   = 0   
+>> Tal antal = 0
+>> ABC mælk
+>> Ord pris 
+>> 
+>> Ord kage
+>> kage.pris
+>>
+>>
+>>
+>> Print.Til.Skræm(“Hej hvad koster ” + mælk )
+>> pris = Læse.Fra.Tastatur ()
+>> Print.Til.Skræm(“Hvor mange har du tilbage “)
+>> antal = Læse.Fra.Tastatur ()
+>> 
+>> Print.Til.Skræm(“Den total “+ pris + pris*antal)
+>> Print.Til.Skræm(“Hvad er prisen på kagen ? ”)
+>> kage.pris = Læse.Fra.Tastatur ()
+>>
+>>
+>>
+>>
+} 
+________________
+
+
+>>
+>>
+>>Program(){
+>>Tal Antal
+>>Ord Bil
+>>Ord Vej
+>>Skriv.Til.Skærm(“Hvor mange biller er der på vejen ? ”)
+>>Bil.Antal = Læse.Fra.Skræm()
+>>Skriv.Til.Skærm(“Hvad heder vejen som den røde bil kører på ?  ”)
+>>Bil.Vej  = Læse.Fra.Skræm()
+>>Skriv.Til.Skærm(Bil.Alt”)
+>>
+>>
+>>}
+>>
+>>Program(){
+>>Tal a
+>>Tal b
+>>Tal c
+>>Skriv.Til.Skærm(“hvad er a b c i ligningen ”)
+>>a,b,c = Læse.Fra.Skræm(andengradligning(a,b,Diskriminanten(a,b,c))
+>>Skriv.Til.Skærm(“løsning til ligning er ”)
+>>
+>>
+>>
+>>
+>>
+>>}
+Diskriminanten(Tal a, Tal b , Tal c){
+Tal D
+D = b^2 -4*a*c
+Slut SendTilbage D
+}
+
+
+andengradligning(Tal a,Tal b,Tal D){
+Hvis D > 0 slut 
+Hvis D = 0 er der en rod/løsning.
+Hvis D < 0 er der ingen rødder/løsninger.
+}
