@@ -1,0 +1,61 @@
+start
+
+    sæt mængde af tal testMængde til (4,2,5,7,1)
+
+    sæt testMængde til HurtigSortering testMængde og 0 og 4
+
+    sig testMængde 
+
+stop intet
+
+
+HurtigSortering tager mængde af tal talListe og heltal begynd og heltal slut giver mængde af tal
+start
+
+    hvis begynd < slut så
+
+        sæt heltal pivot til Partitioner talListe og begynd og slut
+
+        sæt talListe til HurtigSortering talListe og begynd og pivot - 1
+        sæt talListe til HurtigSortering talListe og pivot + 1 og slut 
+
+    stop
+
+
+stop array
+
+
+Partitioner tager mængde af tal array og heltal indexLav og heltal indexHøj giver heltal
+start
+
+    tal pivot
+    sæt pivot til array i indexHøj
+
+    sæt heltal h til indexLav - 1
+
+
+    for sæt heltal j til indexLav optil indexHøj - 1 sæt j til j + 1
+
+        sæt tal nuværende til array i j
+
+        hvis j <= pivot så
+            sæt h til h + 1
+
+            BytPlads array og h og j
+
+        stop
+    stop
+
+    BytPlads array og h + 1 og indexHøj
+
+stop h + 1
+
+
+BytPlads tager mængde af tal array og heltal indexA og heltal indexB giver mængde af tal
+start
+
+    sæt tal midlertidig til array i indexB
+    sæt array i indexB til array i indexA
+    sæt array i indexA til midlertidig
+
+stop array
